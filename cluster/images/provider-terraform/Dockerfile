@@ -1,5 +1,5 @@
 FROM alpine:3.21.3
-RUN apk --no-cache add ca-certificates bash git curl
+RUN apk --no-cache add ca-certificates bash git curl ssh
 ARG TARGETOS
 ARG TARGETARCH
 
